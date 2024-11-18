@@ -1,3 +1,20 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@import "swiper/css";
+@import "swiper/css/pagination";
+@import "swiper/css/navigation";
+
+.triangle {
+  position: absolute;
+  bottom: -9px; /* Adjust based on the button */
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid #ff7043; /* Orange triangle */
+}
+.pointer {
+  cursor: pointer;
+}
